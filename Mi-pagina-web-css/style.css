@@ -94,7 +94,7 @@ footer{
 
 .search-form button {
     border: none;
-    background-color: rgb(6, 80, 70);
+    background-color: rgb(61, 9, 158);
     color: #fff;
     padding: 0.5rem 1rem;
     border-radius: 100vw;   
@@ -121,7 +121,7 @@ footer{
 }
 
 .nav-links ul li:hover{
-    text-decoration: underline #fff 3px;
+    
     transform: scale(1.1);
 }
 
@@ -170,13 +170,13 @@ footer{
 
 .card{ 
     width: 100%;
-    background-color: black;
+    background-color: webkit-linear-gradient(90deg, #446488,#3b60ab,#5f52c2);background: linear-gradient(90deg, #446488,#3b60ab,#5f52c2);
     border-radius: 10px;
     display: flex;
     box-shadow: 10px 10px 12px -2px rgba(251,255,255,1);
 }
 
-.card :hover{
+button :hover{
     transform: scale(1.1);
     transition: 0.10s;
 }
@@ -216,11 +216,12 @@ footer{
     
     background-color: webkit-linear-gradient(90deg, #4a0194,#992fc4,#e75af4);background: linear-gradient(90deg, #4a0194,#992fc4,#e75af4);
     border-radius: 10px;
-    padding: 0 2rem 2rem 2rem;
+    padding: 5rem 2rem 10rem 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
     height: fit-content;
+    box-shadow: 10px 10px 12px -2px rgba(251,255,255,1);
 }
 
 .aside-panel h2{
@@ -234,18 +235,20 @@ footer{
     grid-template-rows: auto;
     gap: 2rem;
     place-content: center; 
+   
     
 }
 
 
 .blog-card{
-    background-color: black;
+    background-color: webkit-linear-gradient(90deg, #446488,#3b60ab,#5f52c2);background: linear-gradient(90deg, #446488,#3b60ab,#5f52c2);
     border-radius: 10px;
     padding: 1rem;
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 1rem;
+    box-shadow: 10px 10px 12px -2px rgba(251,255,255,1);
 } 
 
 .big-blog-card{
@@ -272,6 +275,7 @@ footer{
     height: 100%;
     width: 100;
 }
+
 
 .blog-card-info-container{
     display: flex;
